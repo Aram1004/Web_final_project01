@@ -1,0 +1,29 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title Users
+    
+    table.table.table-hover
+      thead
+        tr
+          th Name
+          th Email
+          th Created At
+          th
+      tbody
+        each user in users   //users 변수에있는 거를 돌면서 각각 밑 코드를 수행시키는 거 //user = {name: ,email: ,create at: }
+          tr
+            td
+              a(href=`/users/${user._id}`)= user.name  //value 
+            td= user.email
+            td= moment(user.createdAt).format('YYYY-MM-DD HH:mm:ss')  // 현재시간 불러주는 유명한 라이브러리 monent.js검색해서 공부해보기////tage안에 연필 이미지 와 같이 만들어서 버튼 출력
+            td
+              a.btn.btn-sm.btn-outline-secondary(href=`/users/${user._id}/edit`) 
+                | #[i.fa.fa-pencil] Edit  
+              | 
+              a.btn.btn-sm.btn-outline-danger(href=`/users/${user._id}?_method=DELETE`)  //?_method=DELETE`오버라이드용.
+                | #[i.fa.fa-trash] Delete
+    a.btn.btn-primary(href='/users/new') #[i.fa.fa-plus] Register a new user
+
+//?_method=DELETE`오버라이드용.

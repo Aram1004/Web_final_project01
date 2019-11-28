@@ -1,0 +1,11 @@
+{
+  "name": "08_mongodb",
+  "version": "1.0.0",
+  "description": "- Python 2.X : https://www.python.org/downloads/release/python-2714/\r - Visual Studio Community Edition (Windows)\r - XCode command line tool (Mac)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
