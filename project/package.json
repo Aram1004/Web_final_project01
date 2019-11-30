@@ -1,0 +1,16 @@
+{
+  "name": "mg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "pug": "^2.0.4"
+  }
+}
