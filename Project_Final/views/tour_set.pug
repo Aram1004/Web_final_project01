@@ -1,0 +1,29 @@
+doctype html
+html
+    head(metacharset='utf-8')
+        title 여행지 목록 페이지
+    body
+        p 여행지 목록
+        ul
+            - const items=list[0]
+            for i in items
+                li
+                    form(action='./tour_com' method="post")
+                        p 여행지 구분제목 :
+                        input(type='text' name='id' value=i.id readOnly)
+                        p 이름 :
+                        input(type='text' name='name' value=i.name)
+                        p 가격:
+                        input(type='text' name='price' value=i.price)
+                        p 설명:
+                        input(type='text' name='dis' value=i.dis)
+                        p 코스:
+                        input(type='text' name='c' value=i.c)
+                        input(type='submit' value='데이터 수정')
+                    //form(action='./admin_remove' method="post")
+                    //    p 정보 삭제
+                    //    input(type='text' name='target' value=i.id readOnly)
+                    //    input(type='submit' value='데이터 삭제')
+
+
+

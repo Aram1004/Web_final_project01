@@ -1,0 +1,36 @@
+doctype html
+html
+    head(metacharset='utf-8')
+        title 관리자 페이지
+    body
+        p 관리자 목록
+        ul
+            - const items=list[0]
+            for i in items
+                li
+                    form(action='./admin_set' method="post")
+                        p 기존 아이디 :
+                        input(type='text' name='target' value=i.id readOnly)
+                        p 아이디 :
+                        input(type='text' name='id' value=i.id)
+                        p 비밀번호 :
+                        input(type='text' name='pw' value=i.pw)
+                        -
+                        case i.group
+                            when 0
+                                p 유저
+                            when 1
+                                p 가이드
+                            when 2
+                                p 관리자
+                            default
+                                p 알 수 없는 그룹
+                        input(type='text' name='g' value=i.group)
+                        input(type='submit' value='데이터 수정')
+                    form(action='./admin_remove' method="post")
+                        p 계정 삭제
+                        input(type='text' name='target' value=i.id readOnly)
+                        input(type='submit' value='데이터 삭제')
+
+
+

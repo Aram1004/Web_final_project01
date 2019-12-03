@@ -1,0 +1,24 @@
+doctype html
+html
+    head(metacharset='utf-8')
+        title 관리자 결과
+    body
+        p 데이터가 성공적으로 수정되었습니다!
+        p='기존 아이디 : ' + t
+        p='아이디 : ' + id
+        p= '비밀번호 : ' +pw
+        p= '그룹 번호 : ' +g
+        -
+        case g
+            when 0
+                p 유저
+            when 1
+                p 가이드
+            when 2
+                p 관리자
+            default
+                p 알 수 없는 그룹
+
+        a(href='./')
+            p 메인
+
