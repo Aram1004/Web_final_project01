@@ -1,0 +1,16 @@
+doctype html
+html
+    head(metacharset='utf-8')
+        title 여행지 예약
+    body
+        ul
+            - const items=list
+            for i in items
+                li
+                    p='기존 여행지 구분제목 : ' + i.name
+                    p= '가격 : ' +i.p
+                    p= '날짜 : ' +i.date
+                    p= '인원 : ' +i.num
+                    a(href='./')
+                        p 메인
+

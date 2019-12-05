@@ -1,0 +1,19 @@
+doctype html
+html
+    head(metacharset='utf-8')
+        title 가입
+    body
+        form(action="./register_tour_com" method="post")
+            p 여행지를 등록해주세요
+            p 여행지 구분제목
+            input(type="text" name="id")
+            p 이름
+            input(type="text" name="name")
+            p 가격
+            input(type="number" name="price")
+            p 설명
+            input(type="text" name="dis")
+            p 코스
+            input(type="text" name="c")
+
+            input(type="submit" value="여행지 등록")
