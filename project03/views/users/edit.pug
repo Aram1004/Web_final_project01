@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title Profile Update
+    form(action=`/users/${user._id}?_method=PUT`, method='POST')
+      .form-group
+        label(for='name') Name
+        input.form-control(type='text', id='name', name='name', placeholder='Your name', value=user.name)
+      .form-group
+        label(for='email') Email address
+        input.form-control(type='email', id='email', name='email', placeholder='Email', value=user.email)
+      .form-group
+        label(for='current_password') Current Password
+        input.form-control(type='password', id='current_password', name='current_password', placeholder='Current Password')
+      .form-group
+        label(for='password') Password
+        input.form-control(type='password', id='password', name='password', placeholder='Password')
+      .form-group
+        label(for='password_confirmation') Password Confirmation
+        input.form-control(type='password', id='password_confirmation', name='password_confirmation', placeholder='Password Confirmation')
+      .form-group
+        label(for='group') Is Admin
+        input.form-control(type='checkbox', id='group', name='group', placeholder='group' checked=user.group)
+      
+      a.btn.btn-outline-secondary(href='javascript:window.history.back();') Back 
+      | 
+      button.btn.btn-primary(type='submit') Update

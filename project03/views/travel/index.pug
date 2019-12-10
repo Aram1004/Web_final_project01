@@ -1,0 +1,33 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title Travels
+    
+    table.table.table-hover
+      thead
+        tr
+          th Name
+          th Price
+          th Description
+          th Course
+          th Picture
+          th Created At
+          th
+      tbody
+        each travel in travels
+          tr
+            td
+              a(href=`/travel/${travel._id}`)= travel.name
+            td= travel.price
+            td= travel.description
+            td= travel.course
+            td= travel.picture
+            td= moment(travel.createdAt).format('YYYY-MM-DD HH:mm:ss')
+            td
+              a.btn.btn-sm.btn-outline-secondary(href=`/travel/${travel._id}/edit`)
+                | #[i.fa.fa-pencil] Edit
+              | 
+              a.btn.btn-sm.need-confirm-btn.btn-outline-danger(href=`/travel/${travel._id}?_method=DELETE`)
+                | #[i.fa.fa-trash] Delete
+    a.btn.btn-primary(href='/travel/new') #[i.fa.fa-plus] Register a new travel

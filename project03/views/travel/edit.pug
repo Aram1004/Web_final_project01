@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title Travel Update
+    form(action=`/travel/${travel._id}?_method=PUT`, method='POST')
+      .form-group
+        label(for='name') Name
+        input.form-control(type='text', id='name', name='name', placeholder='name', value=travel.name)
+      .form-group
+        label(for='price') price
+        input.form-control(type='number', id='price', name='price', placeholder='Price', value=travel.price)
+      .form-group
+        label(for='description') Description
+        input.form-control(type='text', id='description', name='description', placeholder='description' value=travel.description)
+      .form-group
+        label(for='Course') Course
+        input.form-control(type='text', id='course', name='course', placeholder='course' value=travel.course)
+      .form-group
+        label(for='Picture') Picture
+        input.form-control(type='file', id='picture', name='picture', placeholder='picture' value=travel.picture)
+      a.btn.btn-outline-secondary(href='javascript:window.history.back();') Back
+      | 
+      button.btn.btn-primary(type='submit') Update

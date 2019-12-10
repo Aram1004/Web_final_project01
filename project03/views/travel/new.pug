@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title Travel Register
+    form(action='/travel', method='POST')
+      .form-group
+        label(for='name') Name
+        input.form-control(type='text', id='name', name='name', placeholder='Your name')
+      .form-group
+        label(for='price') Price
+        input.form-control(type='number', id='price', name='price', placeholder='price')
+      .form-group
+        label(for='description') Description
+        input.form-control(type='text', id='description', name='description', placeholder='description')
+      .form-group
+        label(for='picture') Picture
+        input.form-control(type='file', id='picture', name='picture', placeholder='picture')
+      .form-group
+        label(for='course') Course
+        input.form-control(type='text', id='course', name='course', placeholder='course')
+
+      a.btn.btn-outline-secondary(href='/users') List
+      button.btn.btn-primary(type='submit') Register 
