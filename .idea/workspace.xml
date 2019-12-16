@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28905f2e-6eb2-48ac-8a93-98e39a417c3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1UjeWA2CRecozFYbySt7kDXpHEN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/travel" />
+    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\M\Desktop\mg\views\travel" />
+      <recent name="C:\Users\M\Desktop\mg\views\trevel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28905f2e-6eb2-48ac-8a93-98e39a417c3d" name="Default Changelist" comment="" />
+      <created>1575874460592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575874460592</updated>
+      <workItem from="1575874461789" duration="7826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575874723496">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874723496" />
+    <state x="626" y="298" key="EditFileWatcherDialog" timestamp="1575874778288">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="626" y="298" key="EditFileWatcherDialog/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874778288" />
+    <state width="1924" height="281" key="GridCell.Tab.0.bottom" timestamp="1575887068748">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1924" height="281" key="GridCell.Tab.0.bottom/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575887068748" />
+    <state width="1924" height="281" key="GridCell.Tab.0.center" timestamp="1575887068748">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1924" height="281" key="GridCell.Tab.0.center/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575887068748" />
+    <state width="1924" height="281" key="GridCell.Tab.0.left" timestamp="1575887068748">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1924" height="281" key="GridCell.Tab.0.left/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575887068748" />
+    <state width="1924" height="281" key="GridCell.Tab.0.right" timestamp="1575887068748">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1924" height="281" key="GridCell.Tab.0.right/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575887068748" />
+    <state width="1896" height="347" key="GridCell.Tab.1.bottom" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.bottom/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.1.center" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.center/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.1.left" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.left/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.1.right" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.right/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.2.bottom" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.bottom/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.2.center" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.center/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.2.left" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.left/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.2.right" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.right/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.3.bottom" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.bottom/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.3.center" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.center/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.3.left" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.left/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state width="1896" height="347" key="GridCell.Tab.3.right" timestamp="1575874724615">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.right/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874724615" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1575874779440">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575874779440" />
+    <state x="667" y="127" width="745" height="792" key="find.popup" timestamp="1575888183982">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="667" y="127" width="745" height="792" key="find.popup/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575888183982" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1575876776452">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575876776452" />
+    <state x="615" y="253" width="700" height="530" key="recent.locations.popup" timestamp="1575876395341">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="615" y="253" width="700" height="530" key="recent.locations.popup/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575876395341" />
+    <state x="637" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1575878670608">
+      <screen x="0" y="0" width="3840" height="1040" />
+    </state>
+    <state x="637" y="230" width="672" height="678" key="search.everywhere.popup/3840.0.1920.1040/0.0.3840.1040@0.0.3840.1040" timestamp="1575878670608" />
+  </component>
+</project>

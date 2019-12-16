@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title= travel.name
+          
+    dl.row
+      dt.col-sm-3 Price
+      dd.col-sm-9=travel.price
+
+      dt.col-sm-3 Description
+        dd.col-sm-9= travel.description
+
+      dt.col-sm-3 Course
+        dd.col-sm-9= travel.course
+      dt.col-sm-3 Picture
+        dd.col-sm-9= travel.picture
+      dt.col-sm-3 Created At
+      dd.col-sm-9= travel.createdAt
+
+    hr
+    if (currentUser &&  currentUser.group!=0)
+      p
+        a.btn.btn-outline-secondary(href='/travel/') List
+        |
+        a.btn.btn-outline-primary(href=`/travel/${travel._id}/edit`) Edit
+        |
+        a.btn.btn-outline-danger.need-confirm-btn(href=`/travel/${travel._id}?_method=DELETE`) Delete

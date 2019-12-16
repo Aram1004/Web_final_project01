@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+  .container
+    h1.main-title Travels
+    
+    table.table.table-hover
+      thead
+        tr
+          th Name
+          th Price
+          th Description
+          th Course
+          th Picture
+          th Created At
+          th
+      tbody
+        each travel in travels
+          tr
+            td
+              a(href=`/travel/${travel._id}`)= travel.name
+            td= travel.price
+            td= travel.description
+            td= travel.course
+            td= travel.picture
+            td= moment(travel.createdAt).format('YYYY-MM-DD HH:mm:ss')
+            td
+              a(href=`/travel/booking/${travel._id}`) 예약하기
